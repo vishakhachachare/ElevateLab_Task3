@@ -26,7 +26,7 @@ Provision a Docker container locally using Terraform.
 ## Step 1: Configure EC2
 ```bash
 # Connect to EC2
-ssh -i path/to/key.pem ec2-user@<EC2_PUBLIC_IP>
+ssh -i path/to/key.pem ec2-user@3.91.192.171
 ```
 
 ## Set hostname
@@ -97,7 +97,7 @@ docker logs <container name>
 
 Access the Application
 - Open your browser and go to:
-http://your-ec2-public-ip:8080
+http://3.91.192.171:8080
 
 ---
 
