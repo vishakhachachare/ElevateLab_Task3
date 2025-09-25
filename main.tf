@@ -18,7 +18,7 @@ provider "docker" {}
 
 # Pull the custom Docker image from Docker Hub
 resource "docker_image" "my_app_image" {
-  name = "vishakhagujar/firstdockerproject:welcome1"  # Your Docker image
+  name = "vishakhagujar/firstdockerproject:v1"  #  Docker image
 }
 
 
