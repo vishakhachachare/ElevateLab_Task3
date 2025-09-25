@@ -10,7 +10,6 @@ Provision a local Docker container using Terraform.
 - **Docker**: To run containerized applications
 - **AWS EC2**: Host environment (Amazon Linux 2023)
 - **GitHub**: Source control
-- **Jenkins**: Optional CI/CD integration
 
 ---
 
@@ -19,7 +18,7 @@ Provision a local Docker container using Terraform.
 2. Terraform installed
 3. Docker installed and running
 4. GitHub repository created
-5. Docker Hub account with your image pushed (example: `vishakhagujar/firstdockerproject:v1`)
+5. Docker Hub account with image pushed (example: `vishakhagujar/firstdockerproject:v1`)
 
 ---
 
