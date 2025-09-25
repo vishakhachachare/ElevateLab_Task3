@@ -78,3 +78,15 @@ Destroy resources
 ```bash
 terraform destroy
 ```
+
+## Step 4: Verify Docker Container
+```bash
+docker ps
+docker logs <container name>
+```
+
+Access the Application
+- Open your browser and go to:
+http://<your-ec2-public-ip>:8080
+
+
