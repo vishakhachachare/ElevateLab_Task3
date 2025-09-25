@@ -1,7 +1,7 @@
 # Task 3: Infrastructure as Code (IaC) with Terraform
 
 ## Objective
-Provision a Docker container locally using Terraform.
+Provision a local Docker container using Terraform.
 
 ---
 
